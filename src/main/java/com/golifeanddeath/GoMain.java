@@ -1,4 +1,6 @@
-package go;
+package com.golifeanddeath;
+
+import com.golifeanddeath.ui.GoGUI;
 
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;

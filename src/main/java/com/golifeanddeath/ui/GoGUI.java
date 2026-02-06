@@ -1,4 +1,11 @@
-package go;
+package com.golifeanddeath.ui;
+
+import com.golifeanddeath.engine.AlphaBetaDB;
+import com.golifeanddeath.engine.MoveChecker;
+import com.golifeanddeath.engine.NextMoves;
+import com.golifeanddeath.io.GoFileHandler;
+import com.golifeanddeath.model.GameHistory;
+import com.golifeanddeath.model.GoBoard;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -27,8 +34,7 @@ import javax.swing.SwingWorker;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
 
-import static go.GoBoard.BOARD_SIZE;
-import static go.GoBoard.MAX_INDEX;
+import static com.golifeanddeath.model.GoBoard.BOARD_SIZE;
 
 @SuppressWarnings("serial")
 public class GoGUI extends JFrame implements ActionListener, MouseListener {

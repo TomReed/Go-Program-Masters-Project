@@ -1,9 +1,12 @@
-package go;
+package com.golifeanddeath.engine;
+
+import com.golifeanddeath.model.GameHistory;
+import com.golifeanddeath.model.GoBoard;
 
 import java.util.ArrayList;
 
-import static go.GoBoard.BOARD_SIZE;
-import static go.GoBoard.MAX_INDEX;
+import static com.golifeanddeath.model.GoBoard.BOARD_SIZE;
+import static com.golifeanddeath.model.GoBoard.MAX_INDEX;
 
 public class MoveChecker {
 

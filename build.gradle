@@ -10,7 +10,7 @@ java {
 }
 
 application {
-    mainClass = 'go.GoMain'
+    mainClass = 'com.golifeanddeath.GoMain'
 }
 
 repositories {
@@ -19,6 +19,6 @@ repositories {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'go.GoMain'
+        attributes 'Main-Class': 'com.golifeanddeath.GoMain'
     }
 }

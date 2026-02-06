@@ -1,4 +1,6 @@
-package go;
+package com.golifeanddeath.ui;
+
+import com.golifeanddeath.model.GoBoard;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -6,8 +8,8 @@ import java.awt.Graphics;
 
 import javax.swing.JComponent;
 
-import static go.GoBoard.BOARD_SIZE;
-import static go.GoBoard.MAX_INDEX;
+import static com.golifeanddeath.model.GoBoard.BOARD_SIZE;
+import static com.golifeanddeath.model.GoBoard.MAX_INDEX;
 
 @SuppressWarnings("serial")
 public class BoardImage extends JComponent {

@@ -1,4 +1,6 @@
-package go;
+package com.golifeanddeath.engine;
+
+import com.golifeanddeath.model.GoBoard;
 
 import java.util.ArrayList;
 
