@@ -1,14 +1,15 @@
-package go;
+package com.golifeanddeath.io;
+
+import com.golifeanddeath.model.GoBoard;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import static go.GoBoard.BOARD_SIZE;
+import static com.golifeanddeath.model.GoBoard.BOARD_SIZE;
 
 public class GoFileHandler {
 

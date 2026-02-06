@@ -1,4 +1,4 @@
-package go;
+package com.golifeanddeath.model;
 
 import java.util.ArrayList;
 

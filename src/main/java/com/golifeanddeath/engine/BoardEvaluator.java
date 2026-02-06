@@ -1,7 +1,9 @@
-package go;
+package com.golifeanddeath.engine;
 
-import static go.GoBoard.BOARD_SIZE;
-import static go.GoBoard.MAX_INDEX;
+import com.golifeanddeath.model.GoBoard;
+
+import static com.golifeanddeath.model.GoBoard.BOARD_SIZE;
+import static com.golifeanddeath.model.GoBoard.MAX_INDEX;
 
 public class BoardEvaluator {
 

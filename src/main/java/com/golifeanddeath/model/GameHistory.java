@@ -1,9 +1,9 @@
-package go;
+package com.golifeanddeath.model;
 
 import java.util.ArrayList;
 
-import static go.GoBoard.BOARD_SIZE;
-import static go.GoBoard.MAX_STONES;
+import static com.golifeanddeath.model.GoBoard.BOARD_SIZE;
+import static com.golifeanddeath.model.GoBoard.MAX_STONES;
 
 public class GameHistory {
 

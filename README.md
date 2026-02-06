@@ -82,16 +82,20 @@ Characters: `x` (black), `o` (white), `-` (empty), `*` (out of bounds).
 ## Project Structure
 
 ```
-src/main/java/go/
-  GoMain.java          Entry point
-  GoGUI.java           Swing GUI and event handling
-  GoBoard.java         Board state representation
-  BoardImage.java      Board rendering
-  GoFileHandler.java   Load/save problem files
-  GameHistory.java     Move history for Ko detection
-  MoveChecker.java     Move validation and capture logic
-  BoardEvaluator.java  Static board evaluation heuristics
-  AlphaBetaDB.java     Alpha-beta minimax search engine
-  NextMoves.java       Candidate move generation
-goProblems/            Sample life-and-death problems
+src/main/java/com/golifeanddeath/
+  GoMain.java                  Entry point
+  model/
+    GoBoard.java               Board state representation
+    GameHistory.java           Move history for Ko detection
+  engine/
+    AlphaBetaDB.java           Alpha-beta minimax search engine
+    BoardEvaluator.java        Static board evaluation heuristics
+    MoveChecker.java           Move validation and capture logic
+    NextMoves.java             Candidate move generation
+  ui/
+    GoGUI.java                 Swing GUI and event handling
+    BoardImage.java            Board rendering
+  io/
+    GoFileHandler.java         Load/save problem files
+goProblems/                    Sample life-and-death problems
 ```
